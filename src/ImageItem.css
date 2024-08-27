@@ -1,0 +1,17 @@
+/* src/ImageItem.css */
+.image-item {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-item:hover {
+    transform: scale(1.05);
+  }
+  
